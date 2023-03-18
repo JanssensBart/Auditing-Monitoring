@@ -23,7 +23,7 @@ SNMP is a vendor-neutral protocol, which means that it can be used with devices 
 -   Athentication : username + password -> get hashed: MD5 or SHA
 -   encryption: *privacy passphrase* ,  DES or AES
 
-### SNMP COMMANDS (& CONCEPTS)
+## SNMP COMMANDS 
 
 **<u>WALK: </u>**
 
@@ -62,7 +62,7 @@ Overall, SNMP SET provides an efficient and flexible way to manage and monitor n
 
 SNMP trap is a message sent by an SNMP agent to an SNMP manager in order to notify it of an event or a problem that has occurred in the managed device. Traps are initiated by the managed device and are sent to the SNMP manager without any request from the manager. Traps can be classified into two types: generic traps and specific traps. Generic traps are predefined and standardized traps that are used to convey specific classes of events, such as link up/down or authentication failure. Specific traps are custom traps that are vendor-specific and are used to convey events specific to a particular device or application. SNMP traps are an important feature of network management that allows administrators to quickly and efficiently respond to network problems and maintain network performance.
 
-### SNMP CONCEPTS
+## SNMP CONCEPTS
 
 **<u>OID: </u>**
 
