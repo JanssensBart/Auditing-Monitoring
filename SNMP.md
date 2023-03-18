@@ -25,7 +25,7 @@ SNMP is a vendor-neutral protocol, which means that it can be used with devices 
 
 ## SNMP COMMANDS 
 
-**<u>WALK: </u>**
+### WALK:
 
 *example:*
 ```sh
@@ -38,7 +38,7 @@ To perform an SNMP walk, an SNMP client sends a series of requests to the SNMP a
 
 SNMP Walk is useful for network administrators because it offers a quick and easy way to identify problems on a network, gather data on device performance, and troubleshoot network issues. It is often used in conjunction with other SNMP tools, such as SNMP Get and SNMP Set, to fully manage network devices.
 
-**<u>GET: </u>**
+### GET:
 
 *example:*
 ```sh
@@ -50,7 +50,7 @@ SNMP Get is a command used in Simple Network Management Protocol (SNMP) to retri
 
 The SNMP agent then responds to the request, returning the requested value or an error message if the value cannot be retrieved. The SNMP Get request is a fundamental operation that enables network administrators to monitor and manage their network devices remotely.
 
-**<u>SET: </u>**
+### SET: 
 
 SNMP SET enables network administrators to manage network devices remotely without having to physically access and configure each device individually. With SET, network administrators can change configuration settings such as IP addresses, routing tables, passwords, and more, from a single point of management.
 
@@ -58,13 +58,13 @@ To use SNMP SET, network administrators must have the proper SNMP community stri
 
 Overall, SNMP SET provides an efficient and flexible way to manage and monitor network devices, helping to ensure network performance and security.
 
-**<u>TRAP: </u>**
+### TRAP:
 
 SNMP trap is a message sent by an SNMP agent to an SNMP manager in order to notify it of an event or a problem that has occurred in the managed device. Traps are initiated by the managed device and are sent to the SNMP manager without any request from the manager. Traps can be classified into two types: generic traps and specific traps. Generic traps are predefined and standardized traps that are used to convey specific classes of events, such as link up/down or authentication failure. Specific traps are custom traps that are vendor-specific and are used to convey events specific to a particular device or application. SNMP traps are an important feature of network management that allows administrators to quickly and efficiently respond to network problems and maintain network performance.
 
 ## SNMP CONCEPTS
 
-**<u>OID: </u>**
+### OID:
 
 SNMP OID (Object Identifier) is a unique identifier that is used to identify network elements and their associated properties in the Simple Network Management Protocol (SNMP) management information base (MIB). OIDs are organized in a hierarchical structure, with each level representing a different aspect of the object being identified. The higher-level OIDs represent more generalized and broader categories of objects, while the lower-level OIDs represent more specific and detailed properties of the objects.
 
@@ -72,7 +72,7 @@ SNMP OIDs are represented in dotted-decimal notation, with each dot separated va
 
 SNMP OIDs play a critical role in network management and monitoring, as they enable administrators to collect and analyze information about network devices and applications. With the help of SNMP OIDs, network administrators can monitor network performance, troubleshoot issues, and quickly identify and resolve problems.
 
-**<u>MIB: </u>**
+### MIB:
 
 ![mibtree](./images/mibtree.png)
 
