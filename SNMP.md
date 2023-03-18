@@ -84,3 +84,13 @@ The SNMP protocol uses MIBs to transfer information from network devices to SNMP
 
 MIBs can be device-specific or vendor-specific, and they are standardized by the Internet Engineering Task Force (IETF) and the International Organization for Standardization (ISO). MIBs are typically provided by network device vendors and can be downloaded from their websites or through the SNMP management tools.
 
+**IMPORTANT MIBs**
+
+|MIB      	        | BASE OID   	| NAME   	|OIDS           |   	|
+|---	            |---	        |---	    |---	        |---	|
+|SNMPv2-MID	        |1.3.6.1.2.1.1  |system   	|   	        |   	|
+|IF-MIB   	        |1.3.6.1.2.1.2  |interfaces |ifTable        |   	|
+|IP-MIB   	        |1.3.6.1.2.1.4 	|ip   	    |   	        |   	|
+|TCP-MIB   	        |1.3.6.1.2.1	|tcp   	    |tcpConnTable   |   	|
+|HOST-RESOURCES_MIB |1.3.6.1.2.1.25	|HOST   	|HrStorageTable heDevice hrFSTable hrSWRunTable hrSWInstalledTable   |   	|
+
